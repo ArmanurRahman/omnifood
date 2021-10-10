@@ -78,6 +78,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
     align-items: center;
 }
@@ -142,13 +146,13 @@ body {
     color: #555;
 }
 
-.btn--full:link,
+.btn--fill:link,
 .btn--fill:visited {
     background-color: #e67e22;
     color: white !important;
 }
 
-.btn--full:hover,
+.btn--fill:hover,
 .btn--fill:active {
     background-color: #cf711f;
 }
