@@ -46,6 +46,7 @@ body {
     font-weight: 400;
     line-height: 1;
     color: #555;
+    overflow-x: hidden;
 }
 
 /*******************************/
