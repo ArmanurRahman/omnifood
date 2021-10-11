@@ -39,6 +39,7 @@ Default 10px
 html {
     /* Percentage of user's borwser font-size setting */
     font-size: 62.5%; /* it makes 1 rem = 10px*/
+    scroll-behavior: smooth;
 }
 
 body {
