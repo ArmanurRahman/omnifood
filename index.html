@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omnifood</title>
+    <meta name="description"
+        content="Omnifoot is an AI-powered food subscription that will make you healty again, 365 days per year">
+    <title>Omnifood &mdash; Never cook again</title>
+
+    <link rel="icon" href="./assets/img/favicon.png">
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -66,7 +73,12 @@
                 </div>
 
                 <div class="hero-img-box">
-                    <img src="./assets/img/hero.png" alt="" class="hero-img">
+
+                    <picture>
+                        <source srcset="./assets/img/hero.webp" type="image/webp">
+                        <source srcset="./assets/img/hero.png" type="image/png">
+                        <img src="./assets/img/hero.png" alt="" class="hero-img">
+                    </picture>
                 </div>
             </div>
 
